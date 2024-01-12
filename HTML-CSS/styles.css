@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .one {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(197, 120, 182);
+    border: 10px solid transparent;
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-family: sans-serif;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  ol, ul {
+    color: green; 
+    margin-bottom: 100px;
+    margin-left: 10px;
+  }
+  p {
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px
+  }
+
+  body {
+    text-align: left;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                             
+    height: 10vh; 
+  }
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
